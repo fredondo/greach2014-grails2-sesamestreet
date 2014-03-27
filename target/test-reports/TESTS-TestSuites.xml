@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="acer" id="0" name="MuppetTests" package="sesamestreet" tests="1" time="0.339" timestamp="2014-03-27T10:01:39">
+  <testsuite errors="0" failures="0" hostname="acer" id="0" name="MuppetTests" package="sesamestreet" tests="1" time="0.314" timestamp="2014-03-27T12:07:45">
       <properties />
 
-      <testcase classname="sesamestreet.MuppetTests" name="testSaveMuppets" time="0.338" />
+      <testcase classname="sesamestreet.MuppetTests" name="testSaveMuppets" time="0.312" />
 
       <system-out><![CDATA[--Output from testSaveMuppets--
 ]]></system-out>
@@ -12,10 +12,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="acer" id="1" name="MuppetUnitTests" package="sesamestreet" tests="1" time="0.645" timestamp="2014-03-27T10:01:30">
+  <testsuite errors="0" failures="0" hostname="acer" id="1" name="MuppetUnitTests" package="sesamestreet" tests="1" time="0.628" timestamp="2014-03-27T12:07:36">
       <properties />
 
-      <testcase classname="sesamestreet.MuppetUnitTests" name="testSomeCharacters" time="0.625" />
+      <testcase classname="sesamestreet.MuppetUnitTests" name="testSomeCharacters" time="0.603" />
 
       <system-out><![CDATA[--Output from testSomeCharacters--
 ]]></system-out>
