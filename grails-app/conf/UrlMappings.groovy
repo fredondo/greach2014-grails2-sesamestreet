@@ -7,7 +7,7 @@ class UrlMappings {
 			}
 		}
 
-		"/"(view:"/index")
+		"/"(controller:'muppetDiscovery', action:"/index")
 		"500"(view:'/error')
 	}
 }
