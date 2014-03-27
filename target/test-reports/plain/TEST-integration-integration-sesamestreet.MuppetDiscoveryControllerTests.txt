@@ -1,0 +1,13 @@
+Testsuite: sesamestreet.MuppetDiscoveryControllerTests
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0,353 sec
+------------- Standard Output ---------------
+--Output from testNotFoundPerfectMuppet--
+--Output from testFoundPerfectMuppet--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testNotFoundPerfectMuppet--
+--Output from testFoundPerfectMuppet--
+------------- ---------------- ---------------
+
+Testcase: testNotFoundPerfectMuppet took 0,336 sec
+Testcase: testFoundPerfectMuppet took 0,013 sec

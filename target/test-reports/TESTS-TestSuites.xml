@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="acer" id="0" name="MuppetDiscoveryServiceTests" package="sesamestreet" tests="1" time="0.445" timestamp="2014-03-27T13:36:06">
+  <testsuite errors="0" failures="0" hostname="acer" id="0" name="MuppetDiscoveryControllerTests" package="sesamestreet" tests="2" time="0.353" timestamp="2014-03-27T13:56:37">
       <properties />
 
-      <testcase classname="sesamestreet.MuppetDiscoveryServiceTests" name="testLookForPerfectAndRelatedMuppets" time="0.44" />
+      <testcase classname="sesamestreet.MuppetDiscoveryControllerTests" name="testNotFoundPerfectMuppet" time="0.336" />
+
+      <testcase classname="sesamestreet.MuppetDiscoveryControllerTests" name="testFoundPerfectMuppet" time="0.013" />
+
+      <system-out><![CDATA[--Output from testNotFoundPerfectMuppet--
+--Output from testFoundPerfectMuppet--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testNotFoundPerfectMuppet--
+--Output from testFoundPerfectMuppet--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="acer" id="1" name="MuppetDiscoveryServiceTests" package="sesamestreet" tests="1" time="0.033" timestamp="2014-03-27T13:56:37">
+      <properties />
+
+      <testcase classname="sesamestreet.MuppetDiscoveryServiceTests" name="testLookForPerfectAndRelatedMuppets" time="0.029" />
 
       <system-out><![CDATA[--Output from testLookForPerfectAndRelatedMuppets--
 ]]></system-out>
@@ -12,10 +28,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="acer" id="1" name="MuppetTests" package="sesamestreet" tests="1" time="0.139" timestamp="2014-03-27T13:36:07">
+  <testsuite errors="0" failures="0" hostname="acer" id="2" name="MuppetTests" package="sesamestreet" tests="1" time="0.132" timestamp="2014-03-27T13:56:37">
       <properties />
 
-      <testcase classname="sesamestreet.MuppetTests" name="testSaveMuppets" time="0.138" />
+      <testcase classname="sesamestreet.MuppetTests" name="testSaveMuppets" time="0.13" />
 
       <system-out><![CDATA[--Output from testSaveMuppets--
 ]]></system-out>
@@ -24,10 +40,26 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="acer" id="2" name="MuppetDiscoveryServiceUnitTests" package="sesamestreet" tests="1" time="1.31" timestamp="2014-03-27T13:35:57">
+  <testsuite errors="0" failures="0" hostname="acer" id="3" name="MuppetDiscoveryControllerUnitTests" package="sesamestreet" tests="2" time="2.416" timestamp="2014-03-27T13:56:27">
       <properties />
 
-      <testcase classname="sesamestreet.MuppetDiscoveryServiceUnitTests" name="testLookForPerfectAndRelatedMuppets" time="1.233" />
+      <testcase classname="sesamestreet.MuppetDiscoveryControllerUnitTests" name="testNotFoundPerfectMuppet" time="2.259" />
+
+      <testcase classname="sesamestreet.MuppetDiscoveryControllerUnitTests" name="testFoundPerfectMuppet" time="0.081" />
+
+      <system-out><![CDATA[--Output from testNotFoundPerfectMuppet--
+--Output from testFoundPerfectMuppet--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testNotFoundPerfectMuppet--
+--Output from testFoundPerfectMuppet--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="acer" id="4" name="MuppetDiscoveryServiceUnitTests" package="sesamestreet" tests="1" time="0.198" timestamp="2014-03-27T13:56:29">
+      <properties />
+
+      <testcase classname="sesamestreet.MuppetDiscoveryServiceUnitTests" name="testLookForPerfectAndRelatedMuppets" time="0.13" />
 
       <system-out><![CDATA[--Output from testLookForPerfectAndRelatedMuppets--
 ]]></system-out>
@@ -36,10 +68,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="acer" id="3" name="MuppetUnitTests" package="sesamestreet" tests="1" time="0.082" timestamp="2014-03-27T13:35:58">
+  <testsuite errors="0" failures="0" hostname="acer" id="5" name="MuppetUnitTests" package="sesamestreet" tests="1" time="0.075" timestamp="2014-03-27T13:56:30">
       <properties />
 
-      <testcase classname="sesamestreet.MuppetUnitTests" name="testSomeCharacters" time="0.08" />
+      <testcase classname="sesamestreet.MuppetUnitTests" name="testSomeCharacters" time="0.072" />
 
       <system-out><![CDATA[--Output from testSomeCharacters--
 ]]></system-out>

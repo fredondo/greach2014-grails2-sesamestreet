@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="acer" name="sesamestreet.MuppetDiscoveryControllerUnitTests" tests="2" time="2.416" timestamp="2014-03-27T13:56:27">
+  <properties />
+  <testcase classname="sesamestreet.MuppetDiscoveryControllerUnitTests" name="testNotFoundPerfectMuppet" time="2.259" />
+  <testcase classname="sesamestreet.MuppetDiscoveryControllerUnitTests" name="testFoundPerfectMuppet" time="0.081" />
+  <system-out><![CDATA[--Output from testNotFoundPerfectMuppet--
+--Output from testFoundPerfectMuppet--
+]]></system-out>
+  <system-err><![CDATA[--Output from testNotFoundPerfectMuppet--
+--Output from testFoundPerfectMuppet--
+]]></system-err>
+</testsuite>
