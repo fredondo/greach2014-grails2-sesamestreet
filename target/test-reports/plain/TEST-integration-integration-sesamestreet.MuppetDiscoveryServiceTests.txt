@@ -1,0 +1,10 @@
+Testsuite: sesamestreet.MuppetDiscoveryServiceTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0,445 sec
+------------- Standard Output ---------------
+--Output from testLookForPerfectAndRelatedMuppets--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testLookForPerfectAndRelatedMuppets--
+------------- ---------------- ---------------
+
+Testcase: testLookForPerfectAndRelatedMuppets took 0,44 sec

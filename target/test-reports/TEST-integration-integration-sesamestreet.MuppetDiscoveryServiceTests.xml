@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="acer" name="sesamestreet.MuppetDiscoveryServiceTests" tests="1" time="0.445" timestamp="2014-03-27T13:36:06">
+  <properties />
+  <testcase classname="sesamestreet.MuppetDiscoveryServiceTests" name="testLookForPerfectAndRelatedMuppets" time="0.44" />
+  <system-out><![CDATA[--Output from testLookForPerfectAndRelatedMuppets--
+]]></system-out>
+  <system-err><![CDATA[--Output from testLookForPerfectAndRelatedMuppets--
+]]></system-err>
+</testsuite>

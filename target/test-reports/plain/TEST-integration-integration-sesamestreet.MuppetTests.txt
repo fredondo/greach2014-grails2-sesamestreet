@@ -1,5 +1,5 @@
 Testsuite: sesamestreet.MuppetTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0,314 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0,139 sec
 ------------- Standard Output ---------------
 --Output from testSaveMuppets--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0,314 sec
 --Output from testSaveMuppets--
 ------------- ---------------- ---------------
 
-Testcase: testSaveMuppets took 0,313 sec
+Testcase: testSaveMuppets took 0,138 sec

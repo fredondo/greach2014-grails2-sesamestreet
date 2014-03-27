@@ -1,15 +1,13 @@
 package sesamestreet
 
 import grails.test.mixin.*
-
 import org.junit.*
 
 
-@TestFor(MuppetDiscoveryService)
-@Mock(Muppet)
-class MuppetDiscoveryServiceUnitTests {
+class MuppetDiscoveryServiceTests {
 
-
+	def muppetDiscoveryService
+	
 	@Before
 	void prepareCharacters(){
 		def muppets = [
@@ -30,11 +28,11 @@ class MuppetDiscoveryServiceUnitTests {
 	void testLookForPerfectAndRelatedMuppets() {
 		def desiredTraits = new Muppet(color: "orange",  hasFur: false)
 		
-		def perfectMuppet = service.lookForYourPerfectMuppet(desiredTraits)
+		def perfectMuppet = muppetDiscoveryService.lookForYourPerfectMuppet(desiredTraits)
 		assert perfectMuppet != null
 		assert 'Ernie' == perfectMuppet.name
 		
-		def relatedMuppets = service.lookForRelatedMuppets(desiredTraits)
+		def relatedMuppets = muppetDiscoveryService.lookForRelatedMuppets(desiredTraits)
 		assert 3 == relatedMuppets.size()
 	}
 }
