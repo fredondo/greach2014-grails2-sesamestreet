@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="acer" name="sesamestreet.MuppetUnitTests" tests="1" time="0.634" timestamp="2014-03-27T09:51:50">
+<testsuite errors="0" failures="0" hostname="acer" name="sesamestreet.MuppetUnitTests" tests="1" time="0.645" timestamp="2014-03-27T10:01:30">
   <properties />
-  <testcase classname="sesamestreet.MuppetUnitTests" name="testSomeCharacters" time="0.609" />
+  <testcase classname="sesamestreet.MuppetUnitTests" name="testSomeCharacters" time="0.625" />
   <system-out><![CDATA[--Output from testSomeCharacters--
 ]]></system-out>
   <system-err><![CDATA[--Output from testSomeCharacters--

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="acer" name="sesamestreet.MuppetTests" tests="1" time="0.339" timestamp="2014-03-27T10:01:39">
+  <properties />
+  <testcase classname="sesamestreet.MuppetTests" name="testSaveMuppets" time="0.338" />
+  <system-out><![CDATA[--Output from testSaveMuppets--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSaveMuppets--
+]]></system-err>
+</testsuite>
