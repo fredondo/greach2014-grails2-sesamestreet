@@ -1,82 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="acer" id="0" name="MuppetDiscoveryControllerTests" package="sesamestreet" tests="2" time="0.353" timestamp="2014-03-27T13:56:37">
+  <testsuite errors="0" failures="0" hostname="acer" id="0" name="MuppetIntegrationSpec" package="sesamestreet" tests="1" time="0.312" timestamp="2014-03-29T06:10:47">
       <properties />
 
-      <testcase classname="sesamestreet.MuppetDiscoveryControllerTests" name="testNotFoundPerfectMuppet" time="0.336" />
+      <testcase classname="sesamestreet.MuppetIntegrationSpec" name="test save several muppets" time="0.311" />
 
-      <testcase classname="sesamestreet.MuppetDiscoveryControllerTests" name="testFoundPerfectMuppet" time="0.013" />
-
-      <system-out><![CDATA[--Output from testNotFoundPerfectMuppet--
---Output from testFoundPerfectMuppet--
+      <system-out><![CDATA[--Output from test save several muppets--
+Hibernate: insert into muppet (id, version, about, color, gender, has_fur, name, picture) values (null, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into muppet (id, version, about, color, gender, has_fur, name, picture) values (null, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into muppet (id, version, about, color, gender, has_fur, name, picture) values (null, ?, ?, ?, ?, ?, ?, ?)
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testNotFoundPerfectMuppet--
---Output from testFoundPerfectMuppet--
+      <system-err><![CDATA[--Output from test save several muppets--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="acer" id="1" name="MuppetDiscoveryServiceTests" package="sesamestreet" tests="1" time="0.033" timestamp="2014-03-27T13:56:37">
+  <testsuite errors="0" failures="0" hostname="acer" id="1" name="MuppetUnitSpec" package="sesamestreet" tests="3" time="0.92" timestamp="2014-03-29T06:10:37">
       <properties />
 
-      <testcase classname="sesamestreet.MuppetDiscoveryServiceTests" name="testLookForPerfectAndRelatedMuppets" time="0.029" />
+      <testcase classname="sesamestreet.MuppetUnitSpec" name="Ernie validates OK" time="0.741" />
 
-      <system-out><![CDATA[--Output from testLookForPerfectAndRelatedMuppets--
+      <testcase classname="sesamestreet.MuppetUnitSpec" name="Bert fails on validate" time="0.066" />
+
+      <testcase classname="sesamestreet.MuppetUnitSpec" name="validate several of them" time="0.09" />
+
+      <system-out><![CDATA[--Output from Ernie validates OK--
+--Output from Bert fails on validate--
+--Output from validate several of them--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testLookForPerfectAndRelatedMuppets--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="acer" id="2" name="MuppetTests" package="sesamestreet" tests="1" time="0.132" timestamp="2014-03-27T13:56:37">
-      <properties />
-
-      <testcase classname="sesamestreet.MuppetTests" name="testSaveMuppets" time="0.13" />
-
-      <system-out><![CDATA[--Output from testSaveMuppets--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testSaveMuppets--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="acer" id="3" name="MuppetDiscoveryControllerUnitTests" package="sesamestreet" tests="2" time="2.416" timestamp="2014-03-27T13:56:27">
-      <properties />
-
-      <testcase classname="sesamestreet.MuppetDiscoveryControllerUnitTests" name="testNotFoundPerfectMuppet" time="2.259" />
-
-      <testcase classname="sesamestreet.MuppetDiscoveryControllerUnitTests" name="testFoundPerfectMuppet" time="0.081" />
-
-      <system-out><![CDATA[--Output from testNotFoundPerfectMuppet--
---Output from testFoundPerfectMuppet--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testNotFoundPerfectMuppet--
---Output from testFoundPerfectMuppet--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="acer" id="4" name="MuppetDiscoveryServiceUnitTests" package="sesamestreet" tests="1" time="0.198" timestamp="2014-03-27T13:56:29">
-      <properties />
-
-      <testcase classname="sesamestreet.MuppetDiscoveryServiceUnitTests" name="testLookForPerfectAndRelatedMuppets" time="0.13" />
-
-      <system-out><![CDATA[--Output from testLookForPerfectAndRelatedMuppets--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testLookForPerfectAndRelatedMuppets--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="acer" id="5" name="MuppetUnitTests" package="sesamestreet" tests="1" time="0.075" timestamp="2014-03-27T13:56:30">
-      <properties />
-
-      <testcase classname="sesamestreet.MuppetUnitTests" name="testSomeCharacters" time="0.072" />
-
-      <system-out><![CDATA[--Output from testSomeCharacters--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testSomeCharacters--
+      <system-err><![CDATA[--Output from Ernie validates OK--
+--Output from Bert fails on validate--
+--Output from validate several of them--
 ]]></system-err>
 
   </testsuite>

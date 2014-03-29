@@ -15,7 +15,7 @@
      - All tests </h1>
 <p class="intro">
                         Executed
-                        8
+                        4
                         tests
                     
                         without a single error or failure!
@@ -43,78 +43,77 @@
 <div class="clear"></div>
 <div class="testsuite success">
 <div class="header">
-<h2>MuppetDiscoveryControllerTests</h2>
+<h2>MuppetIntegrationSpec</h2>
+<h3>
+                        A single test executed
+                    
+                        without a single error or failure!
+                    </h3>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="test save several muppets">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">test save several muppets</b>
+</p>
+<p class="summary">Executed in 0.311 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from test save several muppets--
+Hibernate: insert into muppet (id, version, about, color, gender, has_fur, name, picture) values (null, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into muppet (id, version, about, color, gender, has_fur, name, picture) values (null, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into muppet (id, version, about, color, gender, has_fur, name, picture) values (null, ?, ?, ?, ?, ?, ?, ?)
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from test save several muppets--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite success">
+<div class="header">
+<h2>MuppetUnitSpec</h2>
 <h3>
                         Executed
-                        2
+                        3
                         tests
                     
                         without a single error or failure!
                     </h3>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testNotFoundPerfectMuppet">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Ernie validates OK">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">testNotFoundPerfectMuppet</b>
+<span class="icon success"></span><b class="testname message success">Ernie validates OK</b>
 </p>
-<p class="summary">Executed in 0.336 seconds.</p>
+<p class="summary">Executed in 0.741 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testFoundPerfectMuppet">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Bert fails on validate">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">testFoundPerfectMuppet</b>
+<span class="icon success"></span><b class="testname message success">Bert fails on validate</b>
 </p>
-<p class="summary">Executed in 0.013 seconds.</p>
+<p class="summary">Executed in 0.066 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
-<div class="clearfix output footer">
-<div class="sysout">
-<h2>Standard output</h2>
-<pre class="stdout">--Output from testNotFoundPerfectMuppet--
---Output from testFoundPerfectMuppet--
-</pre>
-</div>
-<div class="syserr">
-<h2>System error</h2>
-<pre class="syserr">--Output from testNotFoundPerfectMuppet--
---Output from testFoundPerfectMuppet--
-</pre>
-</div>
-</div>
-<div class="clear"></div>
-</div>
-<div class="testsuite success">
-<div class="header">
-<h2>MuppetDiscoveryControllerUnitTests</h2>
-<h3>
-                        Executed
-                        2
-                        tests
-                    
-                        without a single error or failure!
-                    </h3>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testNotFoundPerfectMuppet">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="validate several of them">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">testNotFoundPerfectMuppet</b>
+<span class="icon success"></span><b class="testname message success">validate several of them</b>
 </p>
-<p class="summary">Executed in 2.259 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testFoundPerfectMuppet">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testFoundPerfectMuppet</b>
-</p>
-<p class="summary">Executed in 0.081 seconds.</p>
+<p class="summary">Executed in 0.09 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -122,146 +121,16 @@
 <div class="clearfix output footer">
 <div class="sysout">
 <h2>Standard output</h2>
-<pre class="stdout">--Output from testNotFoundPerfectMuppet--
---Output from testFoundPerfectMuppet--
+<pre class="stdout">--Output from Ernie validates OK--
+--Output from Bert fails on validate--
+--Output from validate several of them--
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
-<pre class="syserr">--Output from testNotFoundPerfectMuppet--
---Output from testFoundPerfectMuppet--
-</pre>
-</div>
-</div>
-<div class="clear"></div>
-</div>
-<div class="testsuite success">
-<div class="header">
-<h2>MuppetDiscoveryServiceTests</h2>
-<h3>
-                        A single test executed
-                    
-                        without a single error or failure!
-                    </h3>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testLookForPerfectAndRelatedMuppets">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testLookForPerfectAndRelatedMuppets</b>
-</p>
-<p class="summary">Executed in 0.029 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="clearfix output footer">
-<div class="sysout">
-<h2>Standard output</h2>
-<pre class="stdout">--Output from testLookForPerfectAndRelatedMuppets--
-</pre>
-</div>
-<div class="syserr">
-<h2>System error</h2>
-<pre class="syserr">--Output from testLookForPerfectAndRelatedMuppets--
-</pre>
-</div>
-</div>
-<div class="clear"></div>
-</div>
-<div class="testsuite success">
-<div class="header">
-<h2>MuppetDiscoveryServiceUnitTests</h2>
-<h3>
-                        A single test executed
-                    
-                        without a single error or failure!
-                    </h3>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testLookForPerfectAndRelatedMuppets">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testLookForPerfectAndRelatedMuppets</b>
-</p>
-<p class="summary">Executed in 0.13 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="clearfix output footer">
-<div class="sysout">
-<h2>Standard output</h2>
-<pre class="stdout">--Output from testLookForPerfectAndRelatedMuppets--
-</pre>
-</div>
-<div class="syserr">
-<h2>System error</h2>
-<pre class="syserr">--Output from testLookForPerfectAndRelatedMuppets--
-</pre>
-</div>
-</div>
-<div class="clear"></div>
-</div>
-<div class="testsuite success">
-<div class="header">
-<h2>MuppetTests</h2>
-<h3>
-                        A single test executed
-                    
-                        without a single error or failure!
-                    </h3>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testSaveMuppets">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testSaveMuppets</b>
-</p>
-<p class="summary">Executed in 0.13 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="clearfix output footer">
-<div class="sysout">
-<h2>Standard output</h2>
-<pre class="stdout">--Output from testSaveMuppets--
-</pre>
-</div>
-<div class="syserr">
-<h2>System error</h2>
-<pre class="syserr">--Output from testSaveMuppets--
-</pre>
-</div>
-</div>
-<div class="clear"></div>
-</div>
-<div class="testsuite success">
-<div class="header">
-<h2>MuppetUnitTests</h2>
-<h3>
-                        A single test executed
-                    
-                        without a single error or failure!
-                    </h3>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testSomeCharacters">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">testSomeCharacters</b>
-</p>
-<p class="summary">Executed in 0.072 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="clearfix output footer">
-<div class="sysout">
-<h2>Standard output</h2>
-<pre class="stdout">--Output from testSomeCharacters--
-</pre>
-</div>
-<div class="syserr">
-<h2>System error</h2>
-<pre class="syserr">--Output from testSomeCharacters--
+<pre class="syserr">--Output from Ernie validates OK--
+--Output from Bert fails on validate--
+--Output from validate several of them--
 </pre>
 </div>
 </div>

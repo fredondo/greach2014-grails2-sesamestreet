@@ -1,2 +1,0 @@
---Output from testNotFoundPerfectMuppet--
---Output from testFoundPerfectMuppet--
